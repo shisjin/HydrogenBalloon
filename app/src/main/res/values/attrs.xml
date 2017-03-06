@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义RoundHeadFrameView的属性-->
+    <declare-styleable name="RoundHeadFrameView" >
+        <attr name="radius" format="dimension"/>
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color"/>
+        <attr name="shape_type" format="enum">
+            <enum name="round" value="0"/>
+            <enum name="rectangle" value="1" />
+        </attr>
+        
+    </declare-styleable>
+    
+    
+</resources>

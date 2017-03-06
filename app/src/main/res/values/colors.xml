@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#37c9d4</color>
+    <color name="colorPrimaryDark">#37c9d4</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray">#cccccc</color>
+    <color name="destina_gray">#fafafa</color>
+
+    <color name="picture_placeholder">#a49f9f</color>
+
+    <color name="wanto_gray">#eae7e7</color>
+    <color name="wanto_text_gray">#c2bcbc</color>
+    <color name="wanto_text_lingfan">#212020</color>
+    <color name="personal_tab_text">#ECF0EF</color>
+    <color name="personal_title_text">#343434</color>
+    <color name="personal_content_text">#353535</color>
+
+    <color name="shape_stroke_color">#2DC9D7</color>
+    <color name="banner_wanto_gray">#eae7e7</color>
+    <color name="banner_wanto_text_gray">#c2bcbc</color>
+
+
+    <color name="item_context_text_color_gray">#353535</color>
+
+    <!--wodeFragment-->
+    <color name="wode_text_color">#757575</color>
+
+
+</resources>

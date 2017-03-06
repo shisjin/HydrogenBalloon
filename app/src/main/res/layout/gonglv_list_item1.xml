@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/hot_destination"
+        style="@style/gonglv_list_hot_destination_title" />
+
+    <View style="@style/gonglv_list_item_view" />
+
+    <!--tupain -->
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/position1"
+            style="@style/gonglv_list_item_sig_item_linearlayout_style">
+
+            <ImageView
+                android:id="@+id/city_image1"
+
+                style="@style/gonglv_list_item_image_style" />
+
+            <TextView
+                android:id="@+id/city_name1"
+                android:layout_below="@+id/city_image1"
+                style="@style/gonglv_list_item_cityname_style" />
+            <TextView
+                android:id="@+id/city_name_en1"
+                android:layout_below="@+id/city_name"
+                style="@style/gonglv_list_item_cityname_en_style" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/position2"
+            style="@style/gonglv_list_item_sig_item_linearlayout_mid_style">
+
+            <ImageView
+                android:id="@+id/city_image2"
+
+                style="@style/gonglv_list_item_image_style" />
+
+            <TextView
+                android:id="@+id/city_name2"
+                android:layout_below="@+id/city_image1"
+                style="@style/gonglv_list_item_cityname_style" />
+            <TextView
+                android:id="@+id/city_name_en2"
+                android:layout_below="@+id/city_name"
+                style="@style/gonglv_list_item_cityname_en_style" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/position3"
+            style="@style/gonglv_list_item_sig_item_linearlayout_style">
+
+            <ImageView
+                android:id="@+id/city_image3"
+
+                style="@style/gonglv_list_item_image_style" />
+
+            <TextView
+                android:id="@+id/city_name3"
+                android:layout_below="@+id/city_image1"
+                style="@style/gonglv_list_item_cityname_style" />
+            <TextView
+                android:id="@+id/city_name_en3"
+                android:layout_below="@+id/city_name"
+                style="@style/gonglv_list_item_cityname_en_style" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <View style="@style/gonglv_list_item_view" />
+    <!--tupain -->
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/position4"
+            style="@style/gonglv_list_item_sig_item_linearlayout_style">
+
+            <ImageView
+                android:id="@+id/city_image4"
+
+                style="@style/gonglv_list_item_image_style" />
+
+            <TextView
+                android:id="@+id/city_name4"
+                android:layout_below="@+id/city_image1"
+                style="@style/gonglv_list_item_cityname_style" />
+            <TextView
+                android:id="@+id/city_name_en4"
+                android:layout_below="@+id/city_name"
+                style="@style/gonglv_list_item_cityname_en_style" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/position5"
+            style="@style/gonglv_list_item_sig_item_linearlayout_mid_style">
+
+            <ImageView
+                android:id="@+id/city_image5"
+
+                style="@style/gonglv_list_item_image_style" />
+
+            <TextView
+                android:id="@+id/city_name5"
+                android:layout_below="@+id/city_image1"
+                style="@style/gonglv_list_item_cityname_style" />
+            <TextView
+                android:id="@+id/city_name_en5"
+                android:layout_below="@+id/city_name"
+                style="@style/gonglv_list_item_cityname_en_style" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/position6"
+            style="@style/gonglv_list_item_sig_item_linearlayout_style">
+
+            <ImageView
+                android:id="@+id/city_image6"
+
+                style="@style/gonglv_list_item_image_style" />
+
+            <TextView
+                android:id="@+id/city_name6"
+                android:layout_below="@+id/city_image1"
+                style="@style/gonglv_list_item_cityname_style" />
+            <TextView
+                android:id="@+id/city_name_en6"
+                android:layout_below="@+id/city_name"
+                style="@style/gonglv_list_item_cityname_en_style" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <View style="@style/gonglv_list_item_view" />
+
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/more"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

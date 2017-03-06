@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+   <TextView
+       android:id="@+id/author_name"
+       android:text="作者:"
+       android:textColor="@color/black"
+       android:textSize="@dimen/banner_detail_text_content_size"
+       android:layout_margin="@dimen/banner_detail_text_margin"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+   
+</RelativeLayout>

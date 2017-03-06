@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_near_destination_linggan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dream.will.hydrogenballoon.ui.NearDestinationLingganActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:padding="18dp"
+        android:src="@drawable/icon_plan_scenery" />
+
+    <TextView
+        android:id="@+id/topic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/image"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/visit_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/topic"
+        android:layout_below="@+id/topic"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/wanto_text_gray"
+        android:textSize="13sp" />
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/big_image"
+            android:layout_width="match_parent"
+            android:layout_height="220dp" />
+
+        <TextView
+            android:id="@+id/introduce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/show_gonglue"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/cha_kan_gonglue_shape"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:text="查看攻略" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

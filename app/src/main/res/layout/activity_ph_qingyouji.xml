@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/qingyouji_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/banner_detail_text_margin">
+
+                <ImageView
+                    android:layout_centerVertical="true"
+
+                    android:id="@+id/iv_banner_person_head"
+                    android:layout_width="@dimen/banner_detail_head_iv"
+                    android:layout_height="@dimen/banner_detail_head_iv"
+                    android:src="@mipmap/ic_launcher" />
+
+                <ImageView
+
+                    android:id="@+id/vip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_user_v"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="30dp"
+
+                    />
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:id="@+id/item_banner_detail_person_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/banner_detail_text_margin"
+                    android:layout_toRightOf="@+id/iv_banner_person_head"
+                    android:text="name"
+                    android:textColor="@color/black" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/iv_banner_detail_big"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:layout_height="wrap_content" />
+
+            <HorizontalScrollView
+                android:id="@+id/iv_small_hScrollView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:id="@+id/layout_banner_hscrollw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/item_banner_person_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/banner_detail_text_margin"
+                android:text="标题"
+                android:textColor="@color/black"
+                android:textSize="@dimen/banner_detail_text_title_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/long_banner_person_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/banner_detail_text_margin"
+                android:text="内容"
+
+                android:textSize="@dimen/banner_detail_text_content_size" />
+
+
+
+            <!--动态添加标签-->
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout_banner_tab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" />
+            </HorizontalScrollView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_zan_banner_datail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:drawableLeft="@drawable/banner_detail_dianzang_selector"
+                    android:padding="@dimen/banner_detail_text_padding"
+                    android:text="2" />
+
+                <Button
+                    android:id="@+id/btn_pl_banner_datail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:drawableLeft="@drawable/banner_detail_pl_selector"
+                    android:padding="@dimen/banner_detail_text_padding"
+                    android:text="2" />
+
+                <Button
+                    android:id="@+id/btn_shoucang_banner_datail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:drawableLeft="@drawable/banner_detail_shoucang_selector"
+                    android:padding="@dimen/banner_detail_text_padding"
+                    android:text="2" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:drawableRight="@drawable/icon_plan_more"
+                    android:paddingRight="@dimen/banner_detail_text_padding" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</LinearLayout>

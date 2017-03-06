@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_item_home_banner_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/banner_detail_text_margin"
+        android:text="标题"
+        android:textColor="@color/black"
+        android:textSize="@dimen/banner_detail_text_title_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_item_home_banner_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/banner_detail_text_margin"
+        android:layout_marginRight="@dimen/banner_detail_text_margin"
+        android:text="内容"
+        android:textColor="@color/black"
+        android:textSize="@dimen/banner_detail_text_content_size" />
+
+</LinearLayout>

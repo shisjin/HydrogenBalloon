@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+   <ImageView
+       android:id="@+id/personaldeatil_bigiv"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:scaleType="fitXY"
+       />
+    <!--动态添加滑动图片-->
+    <HorizontalScrollView
+        android:id="@+id/personaldeatil_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        >
+        <LinearLayout
+            android:id="@+id/linearLayout_personal_deatil_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" />
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/personal_title_text"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/personal_deatil_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="标题"
+        />
+    <TextView
+        android:textColor="@color/personal_content_text"
+        android:textSize="14sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/personal_deatil_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="6"
+       />
+     <TextView
+         android:textSize="14sp"
+         android:layout_marginTop="15dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:textColor="@color/personal_content_text"
+         android:id="@+id/personal_deatil_description_more"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:visibility="gone"
+         />
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/personal_deatil_showfulltext_bt"
+        android:background="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="查看全文"
+        android:visibility="gone"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <LinearLayout
+
+        android:layout_marginTop="4dp"
+        android:id="@+id/linearlayout_diquyouji"
+        android:visibility="gone"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="#"/>
+        <TextView
+            android:id="@+id/personal_deatil_districts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="湖南"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="旅行记#"/>
+    </LinearLayout>
+    <!--动态添加标签-->
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/linearLayout_personal_deatil_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" />
+    </HorizontalScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_zan_personal_deatil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableLeft="@drawable/banner_detail_dianzang_selector"
+            android:padding="@dimen/banner_detail_text_padding"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/btn_pl_personal_deatil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableLeft="@drawable/banner_detail_pl_selector"
+            android:padding="@dimen/banner_detail_text_padding"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/btn_shoucang_personal_deatil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableLeft="@drawable/banner_detail_shoucang_selector"
+            android:padding="@dimen/banner_detail_text_padding"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/personal_deatil_more"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableRight="@drawable/icon_plan_more"
+            android:paddingRight="@dimen/banner_detail_text_padding" />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

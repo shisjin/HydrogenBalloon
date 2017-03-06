@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/mine_margin"
+        android:text="我的游记" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_wode_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/mine_margin"
+            android:src="@drawable/home_user_place_holder" />
+
+        <TextView
+            android:id="@+id/tv_wode_logn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="未登录"
+            android:textColor="@color/black"
+            android:textSize="@dimen/banner_detail_text_title_size" />
+
+        <ImageView
+            android:id="@+id/iv_wode_xiaoxi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/mine_margin"
+            android:src="@drawable/ic_system_notification" />
+
+        <ImageView
+            android:id="@+id/iv_wode_fengxiang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:src="@drawable/icon_tool_more" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="@dimen/mine_margin"
+        android:background="#aaa" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/mine_margin"
+        android:text="社区" />
+
+    <LinearLayout
+        android:id="@+id/layout_shoucang_wode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_shoucang_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/mine_margin"
+            android:src="@drawable/icon_list_fav" />
+
+        <TextView
+            android:id="@+id/tv_shoucang_logn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="我的收藏"
+            android:textColor="@color/wode_text_color"
+            android:textSize="@dimen/banner_detail_text_title_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_dingdan_wode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_dingdan_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/mine_margin"
+            android:src="@drawable/icon_ctrip_order" />
+
+        <TextView
+            android:id="@+id/tv_dingdan_logn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="携程订单"
+            android:textColor="@color/wode_text_color"
+            android:textSize="@dimen/banner_detail_text_title_size" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="@dimen/mine_margin"
+        android:background="#aaa" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/mine_margin"
+        android:text="其他" />
+
+    <LinearLayout
+        android:id="@+id/layout_qita_wode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_qita_yijian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/mine_margin"
+            android:src="@drawable/icon_my_feedback" />
+
+        <TextView
+            android:id="@+id/tv_qita_yijian"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="意见反馈"
+            android:textColor="@color/wode_text_color"
+            android:textSize="@dimen/banner_detail_text_title_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_qita_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_qita_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/mine_margin"
+            android:src="@drawable/icon_setting" />
+
+        <TextView
+            android:id="@+id/tv_qita_setting"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="设置"
+            android:textColor="@color/wode_text_color"
+            android:textSize="@dimen/banner_detail_text_title_size" />
+    </LinearLayout>
+
+
+</LinearLayout>

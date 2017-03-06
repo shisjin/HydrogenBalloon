@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">HydrogenBalloon</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="destination_goods_type">destination_goods</string>
+    <declare-styleable name="CollapseTextView">
+        <attr name="mTitleText" format="string" />
+        <attr name="mTitleTextColor" format="color|reference" />
+        <attr name="mTitleTextSize" format="dimension" />
+        <attr name="mContentText" format="string" />
+        <attr name="mContentTextColor" format="color|reference" />
+        <attr name="mContentTextSize" format="dimension" />
+        <attr name="mExpandTipsText" format="string" />
+        <attr name="mCollapseTipsText" format="string" />
+        <attr name="mTipsTextColor" format="color|reference" />
+        <attr name="mTipsTextSize" format="dimension" />
+    </declare-styleable>
+    <string name="destination_name">destination_name</string>
+    <string name="destination_user_photoSet">photoSet</string>
+</resources>

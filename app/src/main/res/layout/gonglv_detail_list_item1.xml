@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rLayout"
+    android:orientation="vertical">
+    <!--tupain -->
+
+    <ImageView
+        android:id="@+id/city_image1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="6dp"
+        android:src="@drawable/icon_destination_wiki"
+         />
+
+    <TextView
+        android:id="@+id/city_name1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="16sp"
+        android:layout_toRightOf="@+id/city_image1"
+        android:layout_alignTop="@id/city_image1"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/wanto_text_lingfan"
+        android:text="20条附近旅行灵感" />
+
+
+    <ImageView
+        android:src="@drawable/wiki_hostory_arrow_right"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_below="@+id/city_image1"
+        style="@style/gonglv_list_item_view" />
+
+</RelativeLayout>

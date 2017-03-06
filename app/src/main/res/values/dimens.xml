@@ -1,0 +1,45 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="home_appbarLayout_high">100dp</dimen>
+    <dimen name="home_search_high">50dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <!--home_banner_detail-->
+    <dimen name="banner_detail_text_title_size">18sp</dimen>
+    <dimen name="banner_detail_text_content_size">15sp</dimen>
+    <dimen name="banner_detail_text_margin">10dp</dimen>
+    <dimen name="banner_detail_text_padding">10dp</dimen>
+    <dimen name="banner_detail_head_iv">50dp</dimen>
+    <dimen name="banner_detail_pic_small_h">50dp</dimen>
+    <dimen name="banner_detail_head_title_h">50dp</dimen>
+
+    <!--destination-->
+    <dimen name="destination_goods_height">100dp</dimen>
+    <dimen name="destination_itemLayout_padding">10dp</dimen>
+    <dimen name="destination_item_title_textSize">20sp</dimen>
+    <dimen name="destination_item_subTitle_textSize">16sp</dimen>
+    <dimen name="destination_item_subTitle_padding">5dp</dimen>
+    <dimen name="collectionView_height">150dp</dimen>
+    <dimen name="collectionView_Title_textSize">18sp</dimen>
+    <dimen name="collectionView_subTitle_textSize">16sp</dimen>
+    <!--<dimen userName="destination_userActivity_topic_textSize">18sp</dimen>-->
+    <!--<dimen userName="destination_userActivity_descri_textSize">16sp</dimen>-->
+    <!--collapseTextView-->
+    <dimen name="default_title_size">20sp</dimen>
+    <dimen name="default_content_size">16sp</dimen>
+    <dimen name="default_tips_size">14sp</dimen>
+
+    <!--gonglv_list_item-->
+    <dimen name="gonglv_list_item_margin_left">10dp</dimen>
+
+    <!--youji_recyclerView_item_间隔-->
+
+    <dimen name="mine_margin">20dp</dimen>
+
+
+
+</resources>

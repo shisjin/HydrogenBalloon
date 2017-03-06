@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/banner_detail_head_title_h"
+        android:layout_margin="@dimen/banner_detail_text_margin"
+        android:text="标题"
+        android:textColor="@color/black"
+        android:textSize="@dimen/banner_detail_text_title_size"
+        android:textStyle="bold" />
+
+</LinearLayout>

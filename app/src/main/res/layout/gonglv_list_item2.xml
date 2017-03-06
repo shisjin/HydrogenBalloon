@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/hot_destination"
+        android:text="大陆热门目的地"
+        style="@style/gonglv_list_hot_destination_title" />
+
+    <View style="@style/gonglv_list_item_view" />
+
+    <!--tupain -->
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/position7"
+            style="@style/gonglv_list_item_sig_item_linearlayout_style">
+
+            <ImageView
+                android:id="@+id/city_image1"
+                style="@style/gonglv_list_item_image_style"
+                 />
+
+            <TextView
+                android:id="@+id/city_name1"
+                style="@style/gonglv_list_item_cityname_style"
+                android:layout_below="@+id/city_image1"
+                android:text="珠海1" />
+
+            <TextView
+                android:id="@+id/city_name_en1"
+                style="@style/gonglv_list_item_cityname_en_style"
+                android:layout_below="@+id/city_name"
+                android:text="Yunnan" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/position2"
+            style="@style/gonglv_list_item_sig_item_linearlayout_mid_style">
+
+            <ImageView
+                android:id="@+id/city_image2"
+                style="@style/gonglv_list_item_image_style"
+                 />
+
+            <TextView
+                android:id="@+id/city_name2"
+                style="@style/gonglv_list_item_cityname_style"
+                android:layout_below="@+id/city_image1"
+                android:text="珠海1" />
+
+            <TextView
+                android:id="@+id/city_name_en2"
+                style="@style/gonglv_list_item_cityname_en_style"
+                android:layout_below="@+id/city_name"
+                android:text="Yunnan" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/position3"
+            style="@style/gonglv_list_item_sig_item_linearlayout_style">
+
+            <ImageView
+                android:id="@+id/city_image3"
+                style="@style/gonglv_list_item_image_style"
+                 />
+
+            <TextView
+                android:id="@+id/city_name3"
+                style="@style/gonglv_list_item_cityname_style"
+                android:layout_below="@+id/city_image1"
+                android:text="珠海1" />
+
+            <TextView
+                android:id="@+id/city_name_en3"
+                style="@style/gonglv_list_item_cityname_en_style"
+                android:layout_below="@+id/city_name"
+                android:text="Yunnan" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View style="@style/gonglv_list_item_view" />
+
+    <TextView
+        android:id="@+id/more1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="更多"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp" />
+
+
+</LinearLayout>
